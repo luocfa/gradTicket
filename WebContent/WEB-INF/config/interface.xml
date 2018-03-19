@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.1.xsd">
+
+	<util:map id="interfaceConfig" map-class="java.util.HashMap">
+		<!-- 验证码验证 -->
+		<entry key="nuist_otn_checkRandCodeAnsyn" value="https://kyfw.12306.cn/otn/passcodeNew/checkRandCodeAnsyn"></entry>
+		<!-- 车次查询 -->
+		<entry key="nuist_otn_query" value="https://kyfw.12306.cn/otn/leftTicket/query"></entry>
+		<!-- 车次查询 -->
+		<entry key="nuist_otn_query_price" value="https://kyfw.12306.cn/otn/leftTicket/queryTicketPrice"></entry>
+	
+	</util:map>
+</beans>
